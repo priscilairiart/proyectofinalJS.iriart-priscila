@@ -1,0 +1,60 @@
+.prestamos {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    
+  }
+  
+  #formulario-prestamo {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #formulario-prestamo label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #formulario-prestamo input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+  }
+  
+  #formulario-prestamo select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #calcular {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #resultado-p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+  }

@@ -1,0 +1,88 @@
+.menu-hamburguesa {
+  display: none;
+  cursor: pointer;
+  position: relative;
+}
+.menu img {
+  width: 100px;
+  margin-right: 20px;
+}
+.menu-hamburguesa::before {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(129, 127, 127, 0.5);
+  border-top: 1px solid #fff;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease; 
+}
+
+.menu a:hover {
+  color: #fff; 
+}
+
+.menu li:hover {
+  padding: 10px;
+  background-color: #333; 
+  transition: background-color 0.3s ease; /
+}
+
+@media (max-width: 768px) {
+  .menu-hamburguesa {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+
+  .menu-hamburguesa span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff6f6;
+    margin-bottom: 5px;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 1em;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

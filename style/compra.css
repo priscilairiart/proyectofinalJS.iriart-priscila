@@ -1,0 +1,50 @@
+.formulario {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+   
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formulario input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #comprar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button {
+    background-color: #000100;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 35px; 
+    position: relative;
+  }
