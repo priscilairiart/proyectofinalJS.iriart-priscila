@@ -1,15 +1,15 @@
 const menu = document.getElementById('menu');
 const logo = document.createElement('img');
-logo.src = './../img/LOGO.png';
+logo.src = './img/LOGO.png';
 logo.alt = 'Logo';
 
 
 const links = [
-  { texto: 'Inicio', href: './../index.html' },
-  { texto: 'login', href: './../pages/login.html' },
-  { texto: 'prestamo', href: './../pages/prestamo.html' },
-  { texto: 'cotizacion', href: './../pages/cotizacion.html' },
-  { texto: 'compra', href: './../pages/compra.html' }
+  { texto: 'Inicio', href: './index.html' },
+  { texto: 'login', href: './pages/login.html' },
+  { texto: 'prestamo', href: './pages/prestamo.html' },
+  { texto: 'cotizacion', href: './pages/cotizacion.html' },
+  { texto: 'compra', href: './pages/compra.html' }
 ];
 
 links.forEach((link) => {
